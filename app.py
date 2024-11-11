@@ -20,8 +20,6 @@ def get_tipo_cambio_mep():
 
     Returns:
         float: El valor del precio de compra del dolar MEP.
-
-    Raises:
     """
     base_api_url = "https://dolarapi.com/v1"
     operation_uri = "/dolares/bolsa"
